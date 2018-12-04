@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Skat Cat 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>A crazy cat named:</h1>
+  <ion-card>
+    <ion-card-header>
+        Skat Cat
+    </ion-card-header>
+    <ion-card-content>
+      <p>If you do what you love, you'll never work a day in your life - Mark Anthony</p>
+    </ion-card-content>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="catPower()">Power</ion-button>
+      <ion-button>Skat</ion-button>
+    </ion-buttons>
+
+    <ion-fab vertical= "center" horizontal="start" slot="fixed">
+      <ion-fab-button>
+          <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+    </ion-fab> 
+    
+  </ion-card>
+  <ion-chip>
+    <ion-avatar>
+      <img src="skatCat.jpeg" alt="skatCat">
+    </ion-avatar>
+    <ion-label>Skat Cat</ion-label>
+  </ion-chip>
+
+</ion-content>
